@@ -9,6 +9,7 @@ class Solution {
         for (char s : s1.toCharArray()){
             map.put(s, map.getOrDefault(s, 0)+1);
         }
+        //Window size
         int len= s1.length();
         for (int i=0; i<len;i++){
             char x = s2.charAt(i);
